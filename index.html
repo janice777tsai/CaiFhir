@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>My APP</title>
+</head>
+<body>
 <script type="text/javascript">
 FHIR.oauth2.ready().then(function(client) {
 // Render the current patient (or any error)
@@ -33,3 +40,4 @@ document.getElementById("meds").innerText = error.stack;
 }).catch(console.error);
 </script>
 </body>
+</html>
